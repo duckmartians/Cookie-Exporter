@@ -47,7 +47,7 @@ Hãy thử xuất cookies từ trang web `https://labs.google/fx/vi/tools/flow`.
 5.  Nút bấm sẽ ngay lập tức chuyển sang màu xanh và hiển thị chữ **"Đã chép\!"**.
 6.  Vậy là xong\! Toàn bộ nội dung cookies đã được sao chép vào clipboard của bạn. Giờ bạn có thể dán (Ctrl+V hoặc Command+V) vào bất kỳ trình soạn thảo văn bản nào.
 
- \#\# ☕ Hỗ trợ tác giả
+## ☕ Hỗ trợ tác giả
 
 Nếu bạn thấy tiện ích này hữu ích, hãy ủng hộ tác giả một ly cà phê nhé\!
 
