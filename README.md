@@ -1,6 +1,6 @@
 <h1 align="center">Cookie Exporter</h1>
 
-<p align="center"><b>Tiện ích Chrome miễn phí để xem, tìm, sửa, tạo, xóa, nhập và xuất cookie của trang đang mở — dạng JSON, Netscape cookies.txt hoặc chuỗi Cookie header.</b></p>
+<p align="center"><b>Tiện ích Chrome miễn phí để xem, tìm, sửa, tạo, xóa, nhập và xuất cookie của trang đang mở - dạng JSON, Netscape cookies.txt hoặc chuỗi Cookie header.</b></p>
 
 <p align="center">
   <a href="https://chromewebstore.google.com/detail/cookie-exporter/fhnmmidekmgocpjdceeffppcodigillk"><img alt="Cài từ Chrome Web Store" src="https://img.shields.io/badge/C%C3%A0i%20t%E1%BB%AB-Chrome%20Web%20Store-4285F4?style=for-the-badge&logo=googlechrome&logoColor=white"></a>
@@ -10,7 +10,7 @@
 
 ## Cài đặt
 
-### Bước 1 — Cài từ Chrome Web Store
+### Bước 1 - Cài từ Chrome Web Store
 
 1. Mở trang **[Cookie Exporter trên Chrome Web Store](https://chromewebstore.google.com/detail/cookie-exporter/fhnmmidekmgocpjdceeffppcodigillk)**.
 2. Bấm **Thêm vào Chrome** (Add to Chrome) → **Thêm tiện ích**.
@@ -18,7 +18,7 @@
 
 Tiện ích cần Chrome bản **102 trở lên** và tự cập nhật qua Chrome Web Store.
 
-### Bước 2 — Miễn phí, không cần tài khoản
+### Bước 2 - Miễn phí, không cần tài khoản
 
 Cookie Exporter **miễn phí**: không tài khoản, không quảng cáo, không theo dõi hay thống kê. Mọi thứ chạy ngay trong trình duyệt của bạn.
 
@@ -31,7 +31,7 @@ Cookie Exporter **miễn phí**: không tài khoản, không quảng cáo, khôn
 3. **Cấp quyền đọc cookie** (chỉ lần đầu): bấm **Cho phép trang này** (chỉ trang đang mở) hoặc **Cho phép mọi trang**. Quyền này tùy chọn và thu hồi được bất cứ lúc nào trong `chrome://extensions`.
 4. **Xem, sửa, xuất hoặc nhập** cookie bằng các nút ở thanh dưới: **Tạo mới · Nhập · Xuất · Xóa hết**.
 
-Giao diện mặc định là tiếng Anh — bấm nút **EN** trên thanh trên cùng để chuyển sang **Tiếng Việt**.
+Giao diện mặc định là tiếng Anh - bấm nút **EN** trên thanh trên cùng để chuyển sang **Tiếng Việt**.
 
 ---
 
@@ -39,15 +39,15 @@ Giao diện mặc định là tiếng Anh — bấm nút **EN** trên thanh trê
 
 ![Cookie Exporter](docs/screenshots/1-overview.png)
 
-- **Nhìn là thấy hết** — toàn bộ cookie của trang trong một danh sách, kèm giá trị, hạn dùng ghi bằng lời ("30 ngày", "Phiên", "Hết hạn" — rê chuột để xem ngày giờ chính xác) và dấu HttpOnly / Secure trên từng dòng.
-- **Tìm tức thì** — theo tên, giá trị hoặc domain, có tô sáng chỗ khớp. Danh sách tự cập nhật khi trang thêm hay xóa cookie.
-- **Sửa từng chi tiết** — tên, giá trị, domain, path, hạn dùng, SameSite, Host only, Session, Secure, HttpOnly; **Ctrl + Enter** để lưu.
-- **Xuất một cú bấm** — chép vào clipboard dạng JSON, Netscape hoặc Cookie header, hoặc lưu thành file `.txt` / `.json`.
-- **Nhập tự nhận định dạng** — dán JSON, Netscape cookies.txt hoặc Cookie header, có xem trước trước khi ghi.
-- **Hoàn tác** — sau khi xóa một cookie hoặc xóa hết cookie của trang.
-- **Ba cách mở** — popup trên thanh công cụ, bảng bên (side panel) hoặc tab **Cookie** trong DevTools (F12).
+- **Nhìn là thấy hết** - toàn bộ cookie của trang trong một danh sách, kèm giá trị, hạn dùng ghi bằng lời ("30 ngày", "Phiên", "Hết hạn" - rê chuột để xem ngày giờ chính xác) và dấu HttpOnly / Secure trên từng dòng.
+- **Tìm tức thì** - theo tên, giá trị hoặc domain, có tô sáng chỗ khớp. Danh sách tự cập nhật khi trang thêm hay xóa cookie.
+- **Sửa từng chi tiết** - tên, giá trị, domain, path, hạn dùng, SameSite, Host only, Session, Secure, HttpOnly; **Ctrl + Enter** để lưu.
+- **Xuất một cú bấm** - chép vào clipboard dạng JSON, Netscape hoặc Cookie header, hoặc lưu thành file `.txt` / `.json`.
+- **Nhập tự nhận định dạng** - dán JSON, Netscape cookies.txt hoặc Cookie header, có xem trước trước khi ghi.
+- **Hoàn tác** - sau khi xóa một cookie hoặc xóa hết cookie của trang.
+- **Ba cách mở** - popup trên thanh công cụ, bảng bên (side panel) hoặc tab **Cookie** trong DevTools (F12).
 - **Sáng / tối / theo hệ thống**, giao diện **Tiếng Việt** và **English**.
-- **Dùng bằng bàn phím** — `/` để tìm, phím mũi tên để di chuyển, `Esc` để quay lại.
+- **Dùng bằng bàn phím** - `/` để tìm, phím mũi tên để di chuyển, `Esc` để quay lại.
 
 ---
 
@@ -91,15 +91,15 @@ Bấm **Nhập**, rồi dán **JSON**, file **Netscape** (cookies.txt, kể cả
 
 ![Giao diện sáng/tối, tiếng Anh/tiếng Việt](docs/screenshots/5-themes-languages.png)
 
-Đổi **sáng / tối** và **EN / VI** ngay trên thanh trên cùng của tiện ích. Bấm nút **Mở trong bảng bên** để ghim tiện ích vào side panel của Chrome — danh sách đổi theo tab bạn đang xem. Trong DevTools (F12) có thêm tab **Cookie** với cùng giao diện.
+Đổi **sáng / tối** và **EN / VI** ngay trên thanh trên cùng của tiện ích. Bấm nút **Mở trong bảng bên** để ghim tiện ích vào side panel của Chrome - danh sách đổi theo tab bạn đang xem. Trong DevTools (F12) có thêm tab **Cookie** với cùng giao diện.
 
 ### ⚙️ Cài đặt
 
 Mở bằng nút **Cài đặt** trên thanh trên cùng (hoặc **Tùy chọn tiện ích** trong `chrome://extensions`). Thay đổi được lưu ngay và áp dụng cho popup, bảng bên và DevTools:
 
-- **Giao diện** — ngôn ngữ; chủ đề màu **Tự động / Sáng / Tối**; bật/tắt hiệu ứng chuyển động.
-- **Chỉnh sửa** — luôn mở sẵn phần **Nâng cao**; bật/tắt **tab trong DevTools** (tắt xong cần mở lại DevTools).
-- **Toàn bộ trình duyệt** (cần quyền **Cho phép mọi trang**) — **Xuất tất cả cookie** (Chép JSON hoặc Tải `cookies.txt`) và **Xóa tất cả cookie** (bấm hai lần để xác nhận, **không hoàn tác được**).
+- **Giao diện** - ngôn ngữ; chủ đề màu **Tự động / Sáng / Tối**; bật/tắt hiệu ứng chuyển động.
+- **Chỉnh sửa** - luôn mở sẵn phần **Nâng cao**; bật/tắt **tab trong DevTools** (tắt xong cần mở lại DevTools).
+- **Toàn bộ trình duyệt** (cần quyền **Cho phép mọi trang**) - **Xuất tất cả cookie** (Chép JSON hoặc Tải `cookies.txt`) và **Xóa tất cả cookie** (bấm hai lần để xác nhận, **không hoàn tác được**).
 
 ---
 
@@ -108,11 +108,11 @@ Mở bằng nút **Cài đặt** trên thanh trên cùng (hoặc **Tùy chọn t
 1. Mở **[https://labs.google/fx/vi/tools/flow](https://labs.google/fx/vi/tools/flow)** và đăng nhập tài khoản Google của bạn.
 2. Bấm biểu tượng **Cookie Exporter** trên thanh công cụ. Lần đầu, bấm **Cho phép trang này**.
 
-**Cách 1 — Lưu thành file:** bấm **Xuất** → **cookies.json** (hoặc **cookies.txt** nếu công cụ bạn dùng cần định dạng Netscape). File được lưu vào thư mục tải xuống với tên `labs.google_cookies.json` / `labs.google_cookies.txt`.
+**Cách 1 - Lưu thành file:** bấm **Xuất** → **cookies.json** (hoặc **cookies.txt** nếu công cụ bạn dùng cần định dạng Netscape). File được lưu vào thư mục tải xuống với tên `labs.google_cookies.json` / `labs.google_cookies.txt`.
 
-**Cách 2 — Chép vào clipboard:** bấm **Xuất** → chọn **JSON**, **Netscape** hoặc **Cookie header**. Thông báo "Đã chép N cookie dạng …" hiện ra; dán (Ctrl+V / Command+V) vào nơi cần dùng.
+**Cách 2 - Chép vào clipboard:** bấm **Xuất** → chọn **JSON**, **Netscape** hoặc **Cookie header**. Thông báo "Đã chép N cookie dạng …" hiện ra; dán (Ctrl+V / Command+V) vào nơi cần dùng.
 
-> Cookie chứa phiên đăng nhập — ai có file là có thể vào tài khoản của bạn. Đừng chia sẻ file xuất cho người khác.
+> Cookie chứa phiên đăng nhập - ai có file là có thể vào tài khoản của bạn. Đừng chia sẻ file xuất cho người khác.
 
 ---
 
@@ -120,7 +120,7 @@ Mở bằng nút **Cài đặt** trên thanh trên cùng (hoặc **Tùy chọn t
 
 | Quyền | Để làm gì |
 |---|---|
-| `cookies` | Đọc, sửa, tạo, xóa, nhập và xuất cookie — chức năng chính |
+| `cookies` | Đọc, sửa, tạo, xóa, nhập và xuất cookie - chức năng chính |
 | `tabs` | Biết tab đang mở là trang nào (URL, favicon) để hiện đúng cookie và làm mới khi bạn chuyển tab |
 | `storage` | Ghi nhớ tùy chọn (giao diện, ngôn ngữ, hiệu ứng, mục Nâng cao, tab DevTools) |
 | `sidePanel` | Mở tiện ích trong bảng bên |
@@ -136,17 +136,17 @@ Mở bằng nút **Cài đặt** trên thanh trên cùng (hoặc **Tùy chọn t
 
 | Dữ liệu | Nơi lưu |
 |---|---|
-| Tùy chọn (ngôn ngữ, chủ đề, hiệu ứng, Nâng cao, tab DevTools) | `chrome.storage.local` của tiện ích — không lưu giá trị cookie |
+| Tùy chọn (ngôn ngữ, chủ đề, hiệu ứng, Nâng cao, tab DevTools) | `chrome.storage.local` của tiện ích - không lưu giá trị cookie |
 | File xuất (`<trang>_cookies.json` / `.txt`; `cookies.txt` từ trang Cài đặt) | Thư mục tải xuống của trình duyệt |
 
 ---
 
 ## Khắc phục sự cố
 
-- **Hiện "Cần cấp quyền truy cập", không thấy cookie** — bấm **Cho phép trang này** hoặc **Cho phép mọi trang**.
-- **"Không có cookie ở đây"** — các trang nội bộ như `chrome://` và Chrome Web Store không cho tiện ích đọc cookie.
-- **Không xuất được toàn bộ cookie ở trang Cài đặt** — việc này cần quyền **Cho phép mọi trang**.
-- **Nhập báo "Không đọc được"** — Netscape cần mỗi dòng 7 cột cách nhau bằng **tab** (không phải dấu cách); Cookie header phải nằm trên **một dòng**; JSON phải hợp lệ.
-- **Nhập thiếu vài cookie** — cookie đã hết hạn bị bỏ qua; thông báo liệt kê những cookie không nhập được.
-- **Lỡ xóa nhầm** — bấm **Hoàn tác** trên thông báo ngay sau khi xóa. Riêng **Xóa tất cả cookie** ở trang Cài đặt thì không hoàn tác được.
-- **Không thấy tab Cookie trong DevTools** — kiểm tra **Cài đặt → Tab trong DevTools** đang bật, rồi đóng và mở lại DevTools.
+- **Hiện "Cần cấp quyền truy cập", không thấy cookie** - bấm **Cho phép trang này** hoặc **Cho phép mọi trang**.
+- **"Không có cookie ở đây"** - các trang nội bộ như `chrome://` và Chrome Web Store không cho tiện ích đọc cookie.
+- **Không xuất được toàn bộ cookie ở trang Cài đặt** - việc này cần quyền **Cho phép mọi trang**.
+- **Nhập báo "Không đọc được"** - Netscape cần mỗi dòng 7 cột cách nhau bằng **tab** (không phải dấu cách); Cookie header phải nằm trên **một dòng**; JSON phải hợp lệ.
+- **Nhập thiếu vài cookie** - cookie đã hết hạn bị bỏ qua; thông báo liệt kê những cookie không nhập được.
+- **Lỡ xóa nhầm** - bấm **Hoàn tác** trên thông báo ngay sau khi xóa. Riêng **Xóa tất cả cookie** ở trang Cài đặt thì không hoàn tác được.
+- **Không thấy tab Cookie trong DevTools** - kiểm tra **Cài đặt → Tab trong DevTools** đang bật, rồi đóng và mở lại DevTools.
